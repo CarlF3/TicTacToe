@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="A game of tic tac toe">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-container">
+            <div class="game-info">
+                <div class="game-message">It is &#x2715;'s turn</div>
+                <div class="game-score">
+                    <div class="game-score-x">&#x2715;: <span id="xScore">0</span></div>
+                    <div class="game-score-o">&#x25ef;: <span id="oScore">0</span></div>
+                </div>
+                <div class="game-reset">Clear Board</div>
+            </div>
+            <div class="game-board">
+                <div class="game-square" id="square0" data-square="0"></div>
+                <div class="game-square" id="square1" data-square="1"></div>
+                <div class="game-square" id="square2" data-square="2"></div>
+                <div class="game-square" id="square3" data-square="3"></div>
+                <div class="game-square" id="square4" data-square="4"></div>
+                <div class="game-square" id="square5" data-square="5"></div>
+                <div class="game-square" id="square6" data-square="6"></div>
+                <div class="game-square" id="square7" data-square="7"></div>
+                <div class="game-square" id="square8" data-square="8"></div>
+            </div>
+        </div>
+    </div>
+    <script src="tictactoe.js" ></script>
+</body>
+</html>
